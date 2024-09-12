@@ -1,0 +1,23 @@
+.nomeContent{
+    background-color: black;
+    color: white;
+}
+
+.comentarioContent{
+    background-color: rgb(33, 33, 43);
+    border-radius: 10px;
+}
+
+img{
+    animation: rotacionar 4s infinite linear;
+}
+
+@keyframes rotacionar{
+   from{
+    transform: rotateY(0deg)
+   }
+
+   to{
+    transform: rotateY(360deg);
+   }
+}
