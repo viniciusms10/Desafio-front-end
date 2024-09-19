@@ -7,8 +7,12 @@ import Pessoa from './components/Pessoa';
 import List from './components/List'
 import Evento from './components/Evento';
 import Form from './components/Form';
+import Condicional from './components/Condicional';
+import Listas from './components/Listas';
 
 function App() {
+
+  const meusItens = ['React' , 'Vue' , 'Angular']
   
   const nome = 'Vinicius'
   
@@ -24,6 +28,14 @@ function App() {
       <Evento numero={1}/>
       
       <Form/>
+
+      <h1>Renderização Condicional</h1>
+
+      <Condicional/>
+
+      <h1>Renderização de Listas</h1>
+
+      <Listas itens={meusItens}/>
     </div>
   );
 }
